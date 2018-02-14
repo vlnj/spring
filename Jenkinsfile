@@ -11,5 +11,6 @@ node {
     stage('Post'){
         def response = httpRequest "http://localhost:6029/configar-api/test"
         println('Status: '+response.status)
+        println('Status: '+response.content)
     }
 }
