@@ -13,4 +13,8 @@ public class HelloWorld {
     private String getName() {
         return name;
     }
+
+    private int getAge(){
+        return 0;
+    }
 }
